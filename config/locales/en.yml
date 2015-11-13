@@ -18,6 +18,10 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  hello: "Welcome to the Sample App!"
+  login_error: "Signup is not successful"
+  construction_notice: "This site is under construction.If you are developer please make it quickly. If you are user please stay with us."
+  error_msg: "The form contains"
+  btn_text_signup: "Create my account"
+  signup_prompt_text: "Signup now"

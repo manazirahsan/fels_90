@@ -1,0 +1,7 @@
+jp:
+  hello: "サンプルアプリケーションへようこそ！"
+  login_error: "サインアップは成功しません"
+  construction_notice: "このサイトでは、開発者に迅速にそれをしてくださいですconstruction.If下にあります。あなたがユーザーである場合は私たちと一緒にしてください。"
+  error_msg: "フォームが含まれています"
+  btn_text_signup: "アカウントを作る"
+  signup_prompt_text: "今すぐサインアップ"
