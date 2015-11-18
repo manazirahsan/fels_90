@@ -15,3 +15,6 @@ vn:
   header_partial_logout_text: "đăng xuất"
   header_partial_login_text: "đăng nhập"
   session_new_submit_text: "đệ trình"
+  session_new_remember_me_text: "Hãy nhớ tôi trên máy tính này"
+  session_new_new_user_text: "Người dùng mới?"
+  session_new_signup_new_text: "Đăng ký ngay"

@@ -3,6 +3,8 @@
   <h2>
     <%= t :construction_notice %>
   </h2>
-  <%= link_to t(:signup_prompt_text), signup_path, class: "btn btn-lg btn-primary" %>
+  <% if !logged_in? %>
+    <%= link_to t(:signup_prompt_text), signup_path, class: "btn btn-lg btn-primary" %>
+  <% end %>
 </div>
-<%= link_to image_tag("elogo.jpeg", alt: "Have Fun!!"), 'https://www.facebook.com/FramgiaBangladesh/?fref=ts' %>
+<%= link_to image_tag("elogo.jpeg", alt: "Have fun!!"), 'https://www.facebook.com/FramgiaBangladesh/?fref=ts' %>

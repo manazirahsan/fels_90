@@ -15,3 +15,6 @@ jp:
   header_partial_logout_text: "ログアウト"
   header_partial_login_text: "ログイン"
   session_new_submit_text: "提出します"
+  session_new_remember_me_text: "このコンピュータで私を覚えて"
+  session_new_new_user_text: "新規ユーザー？"
+  session_new_signup_new_text: "今すぐサインアップ"
