@@ -1,0 +1,9 @@
+<li>
+  <%= gravatar_for user %>
+  <%= link_to user.name, user %>
+  | <%= link_to t(:user_partial_follow_text), "#" %>
+  <% if current_user.admin? && current_user %>
+      | <%= link_to t(:user_partial_delete_text), user, method: :delete,
+                    data: { confirm: t(:user_partial_delete_confirmation_text) } %>
+  <% end %>
+</li>
