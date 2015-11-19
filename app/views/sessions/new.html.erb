@@ -1,4 +1,4 @@
-<% provide(:title, "Log in") %>
+<% provide(:title, t(:title_session_new)) %>
 <h1>Log in</h1>
 
 <div class="row">
@@ -13,12 +13,12 @@
 
         <%= f.label :remember_me, class: "checkbox inline" do %>
             <%= f.check_box :remember_me %>
-            <span><%= t :session_new_remember_me_text %></span>
+            <span><%= t(:session_new_remember_me_text) %></span>
         <% end %>
 
         <%= f.submit t(:header_partial_login_text), class: "btn btn-primary" %>
     <% end %>
 
-    <p><%=t :session_new_new_user_text %> <%= link_to t(:session_new_signup_new_text), signup_path %></p>
+    <p><%=t(:session_new_new_user_text) %> <%= link_to t(:session_new_signup_new_text), signup_path %></p>
   </div>
 </div>
