@@ -31,3 +31,5 @@ vn:
   title_session_new: "mới"
   footer_partial_about_text: "Trong khoảng"
   footer_contact_partial_text: "Liên Hệ"
+  user_show_follow_button_text: "Làm theo"
+  user_show_unfollow_button_text: "Hủy theo dõi"

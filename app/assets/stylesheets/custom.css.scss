@@ -216,3 +216,15 @@ input {
     border-bottom: 1px solid $gray-lighter;
   }
 }
+
+
+/* Follow unfollow link */
+
+#follow_unfollow{
+  display:inline;
+  color:#0099bb;
+  &:hover{
+    color:#007799;
+    text-decoration: underline;
+  }
+}

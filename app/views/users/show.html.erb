@@ -6,6 +6,13 @@
         <%= gravatar_for @user %>
         <%= @user.name %>
       </h1>
+      <% if @user != current_user %>
+          <% if current_user.following.include?(@user) %>
+              <%= link_to t(:user_show_unfollow_button_text), relationship_path(id: @user.id), method: :delete, class: 'btn btn-xs btn-danger' %>
+          <% else %>
+              <%= link_to t(:user_show_follow_button_text), relationships_path(id: @user.id), method: :post, class: 'btn btn-xs btn-info' %>
+          <% end %>
+      <% end %>
     </section>
   </aside>
 </div>

@@ -32,3 +32,5 @@ jp:
   title_session_new: "新しい"
   footer_partial_about_text: "約"
   footer_contact_partial_text: "接触"
+  user_show_follow_button_text: "フォロー"
+  user_show_unfollow_button_text: "フォロー"
